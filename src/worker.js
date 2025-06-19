@@ -41,6 +41,13 @@ const API_CONFIGS = {
       paths: ['/bot'],
       description: "Telegram Bot API 代理服务",
       logo: "📱"
+    },
+    ntfy: {
+      host: 'ntfy.sh',
+      paths: ['/ntfy'],
+      description: "ntfy API 代理服务",
+      logo: "Ⓜ️",
+      directUrl: true
     }
   };
 
